@@ -1,0 +1,337 @@
+@font-face {
+  font-family: wilkysta;
+  src: url(../font/wilkysta.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0eadc;
+
+  font-family: "Playfair Display", serif;
+}
+a {
+  color: black;
+}
+
+main {
+  width: 100%;
+  margin: 20px 10%;
+}
+.mainpage {
+  width: 77%;
+}
+/*----------------style section manu-------------*/
+.menu nav {
+  height: 120px;
+  color: #2f2f2f;
+}
+.mainmenu,
+.logo,
+.icon {
+  display: inline-block;
+}
+.mainmenu {
+  margin: 20px 20%;
+}
+.mainmenu ul li {
+  margin-right: 40px;
+  font-size: 28px;
+  font-weight: 400;
+  display: inline-block;
+}
+.mainmenu ul li a:hover {
+  color: #754f23;
+}
+.menu .logo {
+  font-size: 38px;
+  font-weight: bold;
+}
+.icon {
+  width: 70px;
+  display: inline-block;
+}
+.icon a {
+  display: inline-block;
+}
+.menu .icon img {
+  width: 24px;
+  height: 30px;
+}
+
+/*-----------style section banner----------*/
+.banner {
+  position: relative;
+  width: 100%;
+}
+.banner .text,
+.banner .sectionimg {
+  display: inline-block;
+}
+
+.banner .text {
+  width: 50%;
+}
+.banner .text h1 {
+  font-size: 97px;
+  font-family: wilkysta;
+  font-weight: 400;
+  line-height: 110px;
+  word-wrap: break-word;
+  padding-top: 180px;
+}
+.banner .text p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  word-wrap: break-word;
+  width: 84%;
+  margin-top: 10px;
+  margin-bottom: 5rem;
+}
+.banner .sectionimg img {
+  width: 900px;
+  position: absolute;
+  right: -150px;
+  top: 0;
+}
+.banner .text a {
+  background-color: #754f23;
+  padding: 12px 38px;
+  color: white;
+  font-size: 25px;
+  border-radius: 16px;
+  transition: 0.3s ease;
+}
+/*------style section Tranding-------*/
+.tranding {
+  margin-top: 320px;
+}
+.title h2 {
+  font-size: 64px;
+  font-family: wilkysta;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-bottom: 4px;
+}
+.title h2 span {
+  font-size: 36px;
+}
+.liner {
+  height: 2px;
+  background-color: #754f23;
+}
+.title p {
+  font-size: 19px;
+  line-height: 25px;
+  font-weight: 400;
+}
+/*style contaner Tranding*/
+
+.contaner {
+  position: relative;
+  padding: 50px 0;
+}
+.tranding .contaner .card {
+  display: inline-block;
+  margin: 0 2%;
+}
+.contaner .card:nth-child(1) {
+  margin-top: 120px;
+}
+.contaner .card:nth-child(2) {
+  width: 440px;
+  height: 650px;
+}
+.contaner .card:nth-child(2) img {
+  width: 95%; /*برای اینکه دیو شاپ از کدر خارج نشه از % برای عرض و ارتفاع تصویر ستفاده میکنیم */
+  height: 80%;
+}
+.contaner .card:nth-child(3) {
+  margin-top: 65px;
+}
+.card {
+  border: 1px solid #754f23;
+  border-radius: 16px;
+  padding: 14px 14px 6px 14px;
+  width: 330px;
+  height: 515px;
+  text-align: center;
+}
+.card img {
+  width: 300px;
+  border-radius: 16px;
+}
+.card h4 {
+  font-size: 24px;
+  font-weight: 600;
+  word-wrap: break-word;
+  margin: 24px 0;
+}
+.shop {
+  width: 100%;
+}
+.shop p,
+.shop .icon {
+  display: inline-block;
+}
+.shop p {
+  margin-right: 40%;
+}
+.card .shop img {
+  width: 25px;
+}
+.card .icon img {
+  width: 20px;
+}
+.contaner .view__all_btn {
+  position: absolute;
+  bottom: -35px;
+  right: 80px;
+}
+.view__all_btn {
+  padding: 10px 32px;
+  border: 1px solid #754f23;
+  border-radius: 16px;
+  font-size: 24px;
+}
+.view__all_btn:hover {
+  color: #754f23;
+}
+/*------style section summer-------*/
+.summer {
+  margin-top: 100px;
+}
+.summer .summeritem {
+  width: 49%;
+  text-align: center;
+  margin-top: 0px;
+  display: inline-block;
+}
+.summeritem p,
+.summeritem p:first-child {
+  padding: 0 45px;
+  margin: 30px 0;
+  font-size: 20px;
+  line-height: 25px;
+}
+.summer .summeritem:nth-child(2) {
+  text-align: left;
+  margin-top: 0;
+}
+.summeritem div {
+  text-align: right;
+  position: relative;
+}
+.summeritem p:first-child {
+  margin: 0 0 40px 0;
+  padding: 0;
+}
+.summeritem > div img:nth-child(1) {
+  position: absolute;
+  bottom: -50px;
+  left: 140px;
+}
+/*------style section winter-------*/
+.winter .title {
+  text-align: right;
+}
+.winter .title div {
+  margin-left: 65%;
+}
+.winter p:first-child {
+  width: 85%;
+}
+.winter .summeritem > div > img:nth-child(1) {
+  left: 80px;
+  bottom: -20px;
+}
+.winter .summeritem:nth-child(2) p {
+  margin: 0 0 50px 0;
+}
+.winter .summeritem:nth-child(3) {
+  text-align: left;
+}
+.winter .summeritem:nth-child(3) p {
+  margin: 250px 0 0 70px;
+}
+.winter .contaner .view__all_btn {
+  bottom: 60%;
+  right: 0px;
+}
+/*------style section slider customer-------*/
+.customer {
+  margin-bottom: 100px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+.slider {
+  width: 100%;
+  height: 400px;
+}
+.swiper-slide .cardslide {
+  display: flex;
+  margin-left: 60px;
+}
+.swiper-slide .cardslide .text {
+  margin-top: 20px;
+  margin-left: 50px;
+  text-align: left;
+  width: 660px;
+  font-size: 18px;
+}
+.swiper-slide .cardslide .text img,
+.swiper-slide .cardslide .text p {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+.swiper-slide .cardslide .text span {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/*------section footer-------*/
+footer {
+  background-color: #754f23;
+  color: white;
+  padding: 50px;
+  vertical-align: top;
+}
+footer .sec1,
+footer .sec2,
+footer .sec3 {
+  display: inline-block;
+  margin: 0 10%;
+}
+.social_links img {
+  margin-right: 20px;
+}
+footer a {
+  color: white;
+}
+footer .sec1 h4,
+footer .sec1 p,
+footer .sec1 div,
+footer .sec2 ul li,
+footer .sec3 p,
+footer .sec3 a {
+  margin: 20px 0;
+}
