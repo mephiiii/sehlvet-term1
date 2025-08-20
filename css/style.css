@@ -22,8 +22,8 @@ main {
   width: 100%;
 }
 .mainpage {
-  width: 77%;
-  margin: 20px 10%;
+  width: 80%;
+  margin: 20px auto;
 }
 /*----------------style section manu-------------*/
 .menu nav {
@@ -320,6 +320,7 @@ footer .sec2,
 footer .sec3 {
   display: inline-block;
   margin: 0 10%;
+  vertical-align: top;
 }
 .social_links img {
   margin-right: 20px;
